@@ -12,10 +12,10 @@ public class Pizza {
         // your code goes here
         if (this.isVeg == true){
             this.price = 300;
-            this.bill = "Base Price Of The Pizza:"+ this.price;
+            this.bill = "Base Price Of The Pizza: "+ this.price;
         }else {
             this.price = 400;
-            this.bill = "Base Price Of The Pizza:"+ this.price;
+            this.bill = "Base Price Of The Pizza: "+ this.price;
         }
     }
 
